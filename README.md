@@ -32,7 +32,7 @@
 # Prerequisites
 
 Node.js: Ensure that you have Node.js installed. You can download it from nodejs.org.<br>
-Set env variables for the api tests: Create .env file and copy the credentials from the `.env.example`<br> 
+Set env variables for the api tests: Create `.env` file and copy the credentials from the `.env.example`<br> 
 
 
 # Installation
