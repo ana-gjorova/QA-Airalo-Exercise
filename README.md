@@ -1,12 +1,21 @@
 # Introduction
-UI Test Automation with Playwright and Javascript
+- UI Test Automation with Playwright and Javascript
+- Api Test Automation with Axios and Javascript
 
 # Folder structure
 
 ```
   QA-Airalo-Exercise
   |                     
-  └───tests                        All tests are found here
+  └───tests                        
+  │    └───UI                      All UI Playwright tests are found here
+  │    └───api                     All api Axios tests are found here
+  |___api                          
+  |    |
+  │    └───clients                 Main api client is found here
+  |    |
+  │    └───services                Services for order, sim, and token used further in the test files 
+  |
   └───fixtures                     Data files that are used within tests
   └───pageObject                   All selectors and methods for a certain page are found here                 
   └───utils
@@ -14,12 +23,16 @@ UI Test Automation with Playwright and Javascript
   │     └───utils.js               All generic Playwright methods go here. It should be generic in nature.
   │                      
   └───playwright.config.js         Playwright config file
+  |
+  └───.env                         All api id and tokens are found here
+
   
 ```
 
 # Prerequisites
 
 Node.js: Ensure that you have Node.js installed. You can download it from nodejs.org.<br>
+Set env variables for the api tests: Create .env file and copy the credentials from the `.env.example`<br> 
 
 
 # Installation

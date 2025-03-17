@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { homepage } from '../pageObject/homepage';
-import { PackageDetailsPage } from '../pageObject/packageDetailsPage';
-import { UtilsPage } from '../utils/utils'
+import { homepage } from '../../pageObject/homepage';
+import { PackageDetailsPage } from '../../pageObject/packageDetailsPage';
+import { UtilsPage } from '../../utils/utils'
 import fs from 'fs';
 
 test.describe('Verify Package Details page', () => {
